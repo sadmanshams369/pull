@@ -3,3 +3,8 @@ git remote add origin 'link'
 git add .
 git commit -m "message"
 git push -u origin 'branch'
+git checkout -b 'new_branch'
+//Edit the file
+git add .
+git commit -m "message"
+git push -u origin 'new_branch'
